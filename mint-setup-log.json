@@ -1,9 +1,0 @@
-{
-  "timestamp": "2025-11-12T19:18:28.326Z",
-  "status": "Tree created successfully",
-  "merkleTree": "7B65vGF7w9VCb7CZjojsa6PjYKnLeGrbvNf7hKmnYmFT",
-  "treeConfig": "8JGvJFGbfyFeGqV4HeBrYKuXvDdmrvs57PSedfot59eM",
-  "treeAuthority": "2G7i6kHAqs3vohMbhaJE9hghiuyS3HQZZSAwdY2PkLTW",
-  "payer": "FLJzSUPp4yz9noDS5SrGxkYuhgSSk8Xv2mgDgJKidSdc",
-  "note": "Mint instruction construction requires Bubblegum SDK v4+ with Umi or manual instruction building"
-}
