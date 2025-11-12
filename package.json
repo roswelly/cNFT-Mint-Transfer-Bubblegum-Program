@@ -1,0 +1,41 @@
+{
+  "name": "bubbblegum",
+  "version": "0.1.0",
+  "description": "Compressed NFT mint program using Metaplex Bubblegum",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "test:mint": "ts-node test-mint.ts",
+    "test:mint-simple": "ts-node test-mint-simple.ts",
+    "deploy": "anchor deploy",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "metaplex",
+    "bubblegum",
+    "cnft",
+    "compressed-nft"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@metaplex-foundation/mpl-bubblegum": "^3.1.2",
+    "@metaplex-foundation/mpl-token-metadata": "^3.1.2",
+    "@solana/spl-account-compression": "^0.1.8",
+    "@solana/web3.js": "^1.87.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "chai": "^4.3.10",
+    "eslint": "^8.54.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  }
+}

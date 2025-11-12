@@ -1,0 +1,25 @@
+[package]
+name = "bubbblegum"
+version = "0.1.0"
+description = "Compressed NFT mint program using Metaplex Bubblegum"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "bubbblegum"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+mpl-bubblegum = "2.1.1"
+spl-token = "3.5.0"
+spl-account-compression = "0.1.1"
+
